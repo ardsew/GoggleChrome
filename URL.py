@@ -87,9 +87,14 @@ class Browser:
         self.canvas.pack()
         self.scroll = 0
         self.window.bind("<Down>", self.scrolldown)
+        self.window.bind("<Up>", self.scrollup)
     
-    def scrolldown(self, e):
+    def scrolldown(self, foo):
         self.scroll += SCROLL_STEP
+        self.draw()
+    
+    def scrollup(self, foo):
+        self.scroll -= SCROLL_STEP
         self.draw()
 
     def load(self, url: URL):
