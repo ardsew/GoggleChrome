@@ -1,4 +1,4 @@
-![Description of the image](img/goggle-chrome.jpg)
+<img src="img/goggle-chrome.jpg" alt="Goggle Chrome!" width="400"/>
 
 # Web Browser from Scratch
 This project is a minimalist Python-based web browser using socket, ssl, and tkinter for rendering simple HTML documents. It demonstrates basic HTML parsing, rendering, and networking functionalities, making HTTP/HTTPS requests, and displaying the responses.
